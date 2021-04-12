@@ -1,0 +1,6 @@
+current = int(input("Current floor: "))
+destination = int(input("Destination floor: "))
+number = current
+while number <= destination:
+  print("Level", number)
+  number = number + 1
