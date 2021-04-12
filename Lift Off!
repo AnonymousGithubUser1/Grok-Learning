@@ -1,0 +1,11 @@
+a = int(input("Time to launch: "))
+
+print("Counting down ...")
+
+def countdown(count):
+    while (count >= 1):
+        print (count,"...")
+        count -= 1
+
+countdown(a)
+print ("Lift Off!")
