@@ -1,0 +1,4 @@
+money = input("Enter the expenses: ")
+money = money.split()
+total = sum([int(i) for i in money ])
+print("Total:", "$" + str(total))
