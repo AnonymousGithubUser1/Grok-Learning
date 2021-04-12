@@ -1,0 +1,8 @@
+a = input("Students: ")
+b = a.split()
+c = b.sort()
+x = 0
+print("Class Roll")
+for i in range(len(b)):
+  print(b[x])
+  x = x+1
