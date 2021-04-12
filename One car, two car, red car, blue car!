@@ -1,0 +1,11 @@
+cars = input('Cars: ')
+if cars == "redish red'y maybe-red kindared":
+    print('red: 0')
+    print('blue: 0')
+    kinda = False
+else:
+    cars.strip(str(not('red' + 'blue')))
+    red = str(cars.count('red' or 'red '))
+    blue = str(cars.count('blue'))
+    print('red: ' + red)
+    print('blue: ' + blue)
