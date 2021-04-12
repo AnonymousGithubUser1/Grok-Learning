@@ -1,0 +1,9 @@
+default = input('code: ')
+listdefault = default.split()
+uncrypted = []
+for i in reversed(listdefault):
+    if i[0].isupper():
+        i = i.lower()
+        uncrypted.append(i)
+solution = ' '.join(uncrypted)
+print('says:',solution)
